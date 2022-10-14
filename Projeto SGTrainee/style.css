@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(44, 43, 43);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.titulo-principal{
+    width: 100%;
+}
+
+.conteudo-centralizado{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+.div-apresentacao{
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.logo-sg{
+    width: 30%;
+}
+
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.conteudo-centralizado{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+ul li a {
+    color: #1add08;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
