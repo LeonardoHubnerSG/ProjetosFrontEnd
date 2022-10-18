@@ -1,4 +1,3 @@
-import {Cliente} from "./Cliente.js";
 import {Conta} from "./Conta.js";
 
 export class ContaPoupanca extends Conta{
@@ -15,6 +14,6 @@ export class ContaPoupanca extends Conta{
     sacar(valor){
         let taxa = valor * 0.05;
         valor += taxa;
-        return super.sacar(valor);
+        return super._sacar(valor);
     }
 }
