@@ -1,0 +1,20 @@
+{
+  "name": "projetosfrontend",
+  "version": "1.0.0",
+  "description": "teste package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoHubnerSG/ProjetosFrontEnd.git"
+  },
+  "author": "Leonardo Hubner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoHubnerSG/ProjetosFrontEnd/issues"
+  },
+  "homepage": "https://github.com/LeonardoHubnerSG/ProjetosFrontEnd#readme",
+  "type": "module"
+}
