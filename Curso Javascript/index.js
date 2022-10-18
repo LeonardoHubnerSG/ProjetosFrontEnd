@@ -1,6 +1,9 @@
 import  {Cliente} from "./Cliente.js";
-import { ContaCorrente } from "./ContaCorrente.js";
-import { ContaPoupanca } from "./ContaPoupanca.js";
+import { ContaCorrente } from "./Conta/ContaCorrente.js";
+import { ContaPoupanca } from "./Conta/ContaPoupanca.js";
+import { Conta } from "./Conta/Conta.js";
+import { Diretor } from "./Funcionario/Diretor.js";
+import { SistemaAutenticacao } from "./SistemaAutenticacao.js";
 
 const cliente1 = new Cliente("Leonardo Hubner", 12345678900);
 // cliente1.nome = "Leonardo Hubner";
@@ -25,5 +28,17 @@ console.log(contaPoupancaRei);
 
 console.log(ContaCorrente.numeroContas);
 console.log(ContaPoupanca.numeroContas);
+
+//const contaTeste = new Conta(100, 1001, cliente1);
+
+const diretor1 = new Diretor("Leo",1000,12345);
+diretor1.cadastrarSenha("123");
+
+console.log(diretor1.autenticar("123"));
+console.log(SistemaAutenticacao.login(diretor1, "123"));
+
+
+
+
 
 
