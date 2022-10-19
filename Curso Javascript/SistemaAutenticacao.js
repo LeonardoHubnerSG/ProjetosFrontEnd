@@ -1,3 +1,7 @@
+/*
+Objeto será autenticável se ele possuir o método autenticar
+*/
+
 export class SistemaAutenticacao{
     static login(autenticavel, senha){
         if (auntenticavel.ehAutenticavel(autenticavel)){
